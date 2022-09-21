@@ -14,3 +14,15 @@ npm-debug.log
 yarn-error.log
 /.idea
 /.vscode
+/app
+/bootstrap
+/config
+/database
+/lang
+/public/src
+/routes
+/storage
+/tests
+.styleci.yml 
+/artisan
+composer.lock
