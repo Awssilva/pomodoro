@@ -1,0 +1,69 @@
+
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Pomodoro Clock</title>
+      <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace" rel="stylesheet">
+      <link rel="stylesheet" href="/src/css/style.css?v=1.4">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.css"> 
+      <link rel="icon" href="icon-clock.ico" type="image/x-icon">
+      <link rel="apple-touch-icon" href="/src/icons/apple-touch-icon.png"/>
+  </head>
+  <body id="body">
+  <div class="container">
+      <div class="row margin-top " style="margin-top: 5%;">
+          <div class="col-md-12 col-xs-12">
+            <h1 class="title">Pomodoro Clock</h1>
+            <p class="subtitle"> Foco & Produtividade ⏰🚀</p>
+          </div>
+      </div>
+      <div id="timer" class="row timer">
+          <div id="break-section" class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6  text-center ">
+              <h1 class="clock-title ">
+                Break
+              </h1>
+              <div class="clock break-clock" style="margin-top: 25px;">
+              </div>
+              <div class="action-button">
+                  <button type="button" class="btn btn-lg btn-light btn-edit" id="btn-reduce-break-minute">-</button>
+                  <button type="button" class="btn btn-lg btn-light btn-edit margin-right" id="btn-increase-break-minute">+</button>
+                  <button type="button" class="btn btn-lg btn-light btn-edit" id="btn-reduce-break-second">-</button>
+                  <button type="button" class="btn btn-lg btn-light btn-edit" id="btn-increase-break-second">+</button>
+              </div>
+          </div>
+          <div id="session-section" class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 text-center ">
+              <h1 class="clock-title">
+                Foco 
+              </h1>
+              <div class="clock session-clock" style="margin-top: 25px;"></div>
+              <div class="action-button">
+                  <button type="button" class="btn btn-lg btn-light btn-edit" id="btn-reduce-session-minute">-</button>
+                  <button type="button" class="btn btn-lg btn-light btn-edit margin-right" id="btn-increase-session-minute">+</button>
+                  <button type="button" class="btn btn-lg btn-light btn-edit" id="btn-reduce-session-second">-</button>
+                  <button type="button" class="btn btn-lg btn-light btn-edit" id="btn-increase-session-second">+</button>
+              </div>
+          </div>
+      </div>
+      <div class="row text-center ">
+        <div class="col-md-12  ">
+          <button class="btn btn-lg btn-main" id="btn-start">Start</button>
+          <button class="btn btn-lg btn-main" id="btn-stop-music">Stop Music</button>
+          <button class="btn btn-lg btn-main" id="btn-reset">Restart</button>
+        </div>
+  
+      </div>
+      <p id="credit" class="text-center">
+         <a href="https://alexandrews.fly.io" target="_blank">Veja mais</a>
+      </p>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.1/howler.core.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.min.js"></script>
+  <script src="/src/js/script.js?v=1.4"></script>
+  <script src="/src/js/sw.js?v=1.4"></script>
+
+  </body>
+  </html>
